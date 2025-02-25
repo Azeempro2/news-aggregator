@@ -35,4 +35,19 @@ return [
         ],
     ],
 
+    'guardian' => [
+        'url' => 'https://content.guardianapis.com/search',
+        'key' => env('GUARDIAN_API_KEY'),
+    ],
+    
+    'newsapi' => [
+        'url' => 'https://newsapi.org/v2/everything',
+        'key' => env('NEWSAPI_KEY'),
+    ],
+    
+    'worldnews' => [
+        'url' => 'https://api.worldnewsapi.com/search-news',
+        'key' => env('WORLDNEWS_API_KEY'),
+    ],
+    
 ];
